@@ -1,41 +1,24 @@
-# Compiled Lua sources
-luac.out
+# Ignorar arquivos temporários do Roblox
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
 
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
+# Ignorar configurações de IDE
+.vscode/
+.idea/
 
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
+# Ignorar arquivos do sistema
+Thumbs.db
+.DS_Store
 
-# Precompiled Headers
-*.gch
-*.pch
+# Ignorar arquivos de log
+*.log
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
+# Ignorar arquivos de backup
+*.bak
+*.tmp
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+# Ignorar pastas de dependências (se houver)
+packages/
+node_modules/
